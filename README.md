@@ -1,10 +1,12 @@
 Análisis de Ventas y Rendimiento Comercial
 
 Descripción del Proyecto
+
 Este proyecto analiza el rendimiento de ventas de una empresa para comprender el comportamiento del pipeline comercial, identificar los productos más rentables, evaluar el desempeño del equipo de ventas y detectar patrones temporales en las ventas.
 El objetivo es generar insights accionables que permitan optimizar la estrategia comercial y mejorar la conversión de oportunidades en ingresos reales.
 
 Objetivos
+
 •	Analizar el rendimiento general de ventas 
 •	Identificar productos que generan mayor revenue 
 •	Evaluar el desempeño del equipo de ventas 
@@ -13,11 +15,13 @@ Objetivos
 •	Determinar factores que influyen en el cierre de deals 
 
 Herramientas y Tecnologías
+
 •	Excel (Power Query & Power Pivot) → Limpieza, modelado y DAX 
 •	Python (Pandas) → Análisis exploratorio y validación de hipótesis 
 •	Power BI → Visualización, dashboard y storytelling 
 
 Dataset
+
 El análisis se basa en cuatro tablas principales:
 •	sales_pipeline → Información de oportunidades, etapas y revenue 
 •	accounts → Datos de clientes (industria, tamaño, ubicación) 
@@ -28,6 +32,7 @@ El análisis se basa en cuatro tablas principales:
 Procesamiento de Datos (Power Query)
 
 Se construyó un pipeline estructurado:
+
 1. Limpieza de datos
 •	Manejo de valores nulos (ej. Unknown account) 
 •	Estandarización de nombres (ej. GTXPro → GTX pro) 
@@ -86,6 +91,7 @@ o	Win Rate
 
 
 Insights Principales
+
 •	GTX Pro es el principal generador de revenue 
 •	GTX Basic domina en volumen de oportunidades 
 •	Existen diferencias claras en desempeño del equipo 
@@ -93,6 +99,7 @@ Insights Principales
 •	Las ventas presentan patrones cíclicos 
 
 Recomendaciones de Negocio
+
 •	Priorizar productos de alto valor (GTX Pro) 
 •	Optimizar conversión en productos de volumen 
 •	Replicar estrategias de top performers 
@@ -100,6 +107,7 @@ Recomendaciones de Negocio
 •	Alinear estrategias con ciclos de demanda 
 
 Future Improvements
+
 •	Integrar más variables (descuentos, duración del ciclo) 
 •	Implementar modelos predictivos 
 •	Segmentar clientes de forma avanzada 
@@ -109,6 +117,7 @@ Future Improvements
 Conclusión
 
 Este proyecto demuestra un flujo completo de análisis:
+
 •	Limpieza y transformación de datos 
 •	Modelado con esquema estrella 
 •	Análisis exploratorio y validación en Python 
